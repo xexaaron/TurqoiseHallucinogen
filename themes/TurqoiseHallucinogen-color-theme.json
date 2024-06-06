@@ -532,14 +532,14 @@
 			"name": "Keywords",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#7092d3"
+				"foreground": "#7fa0dd"
 			}
 		},
 		{
 			"name": "Namespaces",
 			"scope": "entity.name.namespace",
 			"settings": {
-				"foreground": "#4ec9b0"
+				"foreground": "#cccccc"
 			}
 		},
 		{
