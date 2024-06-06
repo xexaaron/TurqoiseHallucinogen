@@ -1,0 +1,21 @@
+{
+  "name": "TH",
+  "displayName": "TurqoiseHallucinogen",
+  "description": "Personalized Color Theme with vs2022 syntax highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "TurqoiseHallucinogen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/TurqoiseHallucinogen-color-theme.json"
+      }
+    ]
+  }
+}
