@@ -40,7 +40,7 @@
 			"name": "support.variable.magic.python",
 			"scope": "support.variable.magic.python",
 			"settings": {
-				"foreground": "#9d9d9d"
+				"foreground": "#9d9d9d",
 			}
 		},
 		{
