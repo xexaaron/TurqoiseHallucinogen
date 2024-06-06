@@ -5,7 +5,7 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"enumMember": {
-			"foreground": "#d3d3d3"
+			"foreground": "#b5cea8"
 		},
 		"variable.constant": {
 			"foreground": "#b5cea8"
@@ -26,7 +26,7 @@
 			"name": "haskell variable generic-type",
 			"scope": "variable.other.generic-type.haskell",
 			"settings": {
-				"foreground": "#7092d3"
+				"foreground": "#b770d3"
 			}
 		},
 		{
@@ -110,7 +110,7 @@
 			"name": "punctuation.definition",
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
-				"foreground": "#ee8e80"
+				"foreground": "#ec9789"
 			}
 		},
 		{
@@ -153,6 +153,13 @@
 			"scope": "markup.deleted.diff",
 			"settings": {
 				"foreground": "#9d9d9d"
+			}
+		},
+		{
+			"name": "C++ Primitives",
+			"scope": "storage.type.built-in.primtive.cpp, storage.type.primtive.cpp, constant.language.nullptr.cpp, constant.language.false.cpp, constant.language.true.cpp, variable.language.this.cpp",
+			"settings": {
+				"foreground": "#7092D3",
 			}
 		},
 		{
@@ -357,7 +364,7 @@
 				"keyword.operator.expression.keyof"
 			],
 			"settings": {
-				"foreground": "#7092d3"
+				"foreground": "#c888e6"
 			}
 		},
 		{
@@ -504,14 +511,14 @@
 			"name": "python placeholder reset to normal string",
 			"scope": "constant.character.format.placeholder.other.python",
 			"settings": {
-				"foreground": "#b5cea8"
+				"foreground": "#8a8a8a"
 			}
 		},
 		{
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#d7d7d7"
+				"foreground": "#ee8df1"
 			}
 		},
 		{
@@ -532,30 +539,17 @@
 			"name": "Keywords",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#7fa0dd"
+				"foreground": "#abb7cc"
 			}
 		},
 		{
 			"name": "Namespaces",
 			"scope": "entity.name.namespace",
 			"settings": {
-				"foreground": "#cccccc"
+				"foreground": "#c4c3c3"
 			}
 		},
-		{
-			"name": "Variables",
-			"scope": "variable",
-			"settings": {
-				"foreground": "#9d9d9d"
-			}
-		},
-		{
-			"name": "Variables",
-			"scope": "variable.c",
-			"settings": {
-				"foreground": "#d7d7d7"
-			}
-		},
+		
 		{
 			"name": "Language variables",
 			"scope": "variable.language",
@@ -686,7 +680,7 @@
 		},
 		{
 			"name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
-			"scope": "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void",
+			"scope": "keyword.operator.expression.typeof,keyword.operator.expression.void",
 			"settings": {
 				"foreground": "#7092d3"
 			}
@@ -737,7 +731,7 @@
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#ee8e80"
+				"foreground": "#cf8073"
 			}
 		},
 		{
@@ -793,7 +787,6 @@
 			"name": "Attribute IDs",
 			"scope": "entity.other.attribute-name.id",
 			"settings": {
-				"fontStyle": "normal",
 				"foreground": "#dcdcaa"
 			}
 		},
@@ -801,7 +794,6 @@
 			"name": "Attribute class",
 			"scope": "entity.other.attribute-name.class.css",
 			"settings": {
-				"fontStyle": "normal",
 				"foreground": "#b5cea8"
 			}
 		},
@@ -1767,6 +1759,56 @@
 			}
 		},
 		{
+			"name": "C++ Keywords",
+			"scope": "keyword.control.break.cpp, keyword.control.else.cpp, keyword.operator.expression.delete.cpp, keyword.operator.new.cpp, keyword.control.if.cpp, keyword.control.switch.cpp, keyword.control.case.cpp, keyword.other.using.directive.cpp, keyword.control.return.cpp, keyword.control.default.cpp",
+			"settings": {
+				"foreground": "#dd89d2"
+			} 
+		},
+		{
+			"name": "C++ Preprocessor",
+			"scope": "keyword.control.directive",
+			"settings": {
+				"foreground": "#c4c4c4be",
+			}
+		},
+		{
+			"name": "C++ Constructor Initalization Spec",
+			"scope": "entity.name.function.call.initializer.cpp",
+			"settings": {
+				"foreground": "#dbdbdb",
+			}
+		},
+		{
+			"name": "C++ operator assignment",
+			"scope": "storage.modifier.reference.cpp, keyword.operator.assignment.compound.cpp, keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
+			"settings": {
+				"foreground": "#bbbbbb"
+			}
+		},
+		{
+			"name": "C++ Function Parameters",
+			"scope": "variable.parameter.cpp",
+			"settings": {
+				"foreground": "#919191", // Grey color
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C++ Local Variables",
+			"scope": "variable.other.readwrite.cpp",
+			"settings": {
+				"foreground": "#9CDCFE" // Blue color
+			}
+		},
+		{
+			"name": "C++ Member Variables",
+			"scope": "variable.other.member",
+			"settings": {
+				"foreground": "#e9e9e9" // White color
+			}
+		},
+		{
 			"name": "Markdown underscore-style headers",
 			"scope": [
 				"entity.name.label.cs",
@@ -1818,7 +1860,7 @@
 		},
 		{
 			"name": "js/ts italic",
-			"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+			"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter.js,variable.language.super",
 			"settings": {
 				"fontStyle": "italic"
 			}
