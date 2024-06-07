@@ -1,9 +1,23 @@
-# Change Log
+# Changelog 
 
-All notable changes to the "TH" extension will be documented in this file.
+## 1.0.0
+    The Theme was created!
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 1.1.0
+    Minor Color changes for tokens
 
-## [Unreleased]
+## 1.2.0 
+    Minor Color changes for tokens
 
-- Initial release
+## 1.3.0
+    Minor Color Changes for tokens
+        * Updated pragma 'once' to be correct color
+        * Updated 'while' to be correct color.
+        * Update Macros to be correct color.
+        * Update Punctuation to be correct color. See description.
+
+    Lua Syntax Updated
+        * Updated operators to be grey
+        * Updated functions to be blue
+
+

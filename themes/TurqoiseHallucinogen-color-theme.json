@@ -156,25 +156,19 @@
 			}
 		},
 		{
-			"name": "C++ Primitives",
-			"scope": "storage.type.built-in.primtive.cpp, storage.type.primtive.cpp, constant.language.nullptr.cpp, constant.language.false.cpp, constant.language.true.cpp, variable.language.this.cpp",
+			"name": "Lua Functions",
+			"scope": "support.function.any-method.lua",
 			"settings": {
-				"foreground": "#7092D3",
+				"foreground": "#6786c0",
 			}
 		},
 		{
-			"name": "c++ function",
-			"scope": "meta.function.c,meta.function.cpp",
+			"name": "Lua Operators",
+			"scope": "keyword.operator.lua",
 			"settings": {
-				"foreground": "#9d9d9d"
+				"foreground": "#cecece",
 			}
-		},
-		{
-			"name": "c++ block",
-			"scope": "punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c",
-			"settings": {
-				"foreground": "#d7d7d7"
-			}
+
 		},
 		{
 			"name": "js/ts punctuation separator key-value",
@@ -1259,13 +1253,6 @@
 			}
 		},
 		{
-			"name": "block scope",
-			"scope": "block.scope.end,block.scope.begin",
-			"settings": {
-				"foreground": "#d7d7d7"
-			}
-		},
-		{
 			"name": "cs storage type",
 			"scope": "storage.type.cs",
 			"settings": {
@@ -1759,15 +1746,29 @@
 			}
 		},
 		{
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#b9b9b9",
+			}
+		},
+		{
 			"name": "C++ Keywords",
-			"scope": "keyword.control.break.cpp, keyword.control.else.cpp, keyword.operator.expression.delete.cpp, keyword.operator.new.cpp, keyword.control.if.cpp, keyword.control.switch.cpp, keyword.control.case.cpp, keyword.other.using.directive.cpp, keyword.control.return.cpp, keyword.control.default.cpp",
+			"scope": "keyword.other.delete.constructor.cpp, keyword.other.delete.function.cpp, keyword.control.while.cpp, keyword.control.break.cpp, keyword.control.else.cpp, keyword.operator.expression.delete.cpp, keyword.operator.new.cpp, keyword.control.if.cpp, keyword.control.switch.cpp, keyword.control.case.cpp, keyword.other.using.directive.cpp, keyword.control.return.cpp, keyword.control.default.cpp",
 			"settings": {
 				"foreground": "#dd89d2"
 			} 
 		},
 		{
+			"name": "C++ Macros",
+			"scope": "entity.name.function.preprocessor",
+			"settings": {
+				"foreground": "#c2b6f3",
+			}
+		},
+		{
 			"name": "C++ Preprocessor",
-			"scope": "keyword.control.directive",
+			"scope": "keyword.control.directive, entity.other.attribute-name.pragma.preprocessor.cpp",
 			"settings": {
 				"foreground": "#c4c4c4be",
 			}
@@ -1806,6 +1807,20 @@
 			"scope": "variable.other.member",
 			"settings": {
 				"foreground": "#e9e9e9" // White color
+			}
+		},
+		{
+			"name": "C++ Primitives",
+			"scope": "storage.type.built-in.primtive.cpp, storage.type.primtive.cpp, constant.language.nullptr.cpp, constant.language.false.cpp, constant.language.true.cpp, variable.language.this.cpp",
+			"settings": {
+				"foreground": "#7092D3",
+			}
+		},
+		{
+			"name": "c++ function",
+			"scope": "meta.function.c,meta.function.cpp",
+			"settings": {
+				"foreground": "#9d9d9d"
 			}
 		},
 		{

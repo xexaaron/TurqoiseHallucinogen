@@ -1,16 +1,35 @@
-# TH README
+# TurqoiseHallucinogen Theme
+    * Dark color theme turqoise buttons.
+    * All Text buttons have grey text to provide less distractions.
 
-## Working with Markdown
+## Languages
+    * Microsoft Visual Studio dark theme c++ syntax highlighting.
+    * Other languages are probably not going to get updated for the theme.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Customizing Settings
+    Getting the brackets and paranthesis to be the same color requires some customizations. (font & ligatures optional)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+    * <Ctrl+Shift+P> -> User Settings JSON
+        * "editor.fontFamily": "'Cascadia Code', 'Courier New', monospace",
+        * "editor.fontLigatures": true,
+        * "editor.bracketPairColorization.enabled": false
 
-## For more information
+## Editing
+    Go To the extensions folder for vscode.
+        * Windows -> %USERPROFILE%\.vscode\extensions\
+        * macOS   -> ~/.vscode/extensions/
+        * Linux   -> ~/.vscode/extensions/
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+    Find the latest version of the extension.
+        * xexaaron.th-<version>/Themes/TurqoiseHallucinogen-color-theme.json
 
-**Enjoy!**
+    Edit the theme.
+        * <Ctrl+Shift+P> -> Developer : Inspect Editor Tokens and Scopes.
+            * Use this tool to inspect the token and scope you wish to change.
+            * After editing use the -> Developer : Reload Window tool.
+
+    It will probably overwrite if the extension is updated.
+    Save changes in a new file just in case.
+    
+
+
